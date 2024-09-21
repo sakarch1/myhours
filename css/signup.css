@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.content {
+    margin-right: -10px;
+    margin-top: 80px;
+}
+
+.content h1 {
+    margin-bottom: 50px;
+}
+
+.content span {
+    color: #3B8FC2;
+}
+
+.login-container {
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 140vh;
+    margin-top: 190px;
+    
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 570px;
+    text-align: center;
+}
+
+.login-box img {
+    width: 40%;
+    margin-right: 360px;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d9e0;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #82c0fa;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3b8fc2;
+    border-color: #3b8fc2;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6aa9e1;
+}
+
+.microsoft-login {
+    margin-top: 15px;
+}
+
+.microsoft-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f9fafb;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.microsoft-button a {
+    text-decoration: none;
+    color: #3b8fc2;
+}
+
+.microsoft-button img {
+    width: 30px;
+    margin-right: 10px;
+
+}
+
+.microsoft-button {
+    margin-top: 30px;
+    color: #5cb0ff;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.microsoft-button:hover {
+    background-color: #e0e4e4;
+}
+
+.extra-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.extra-options a {
+    font-size: 16px;
+    color: #3b8fc2;
+    text-decoration: none;
+}
+
+.extra-options a:hover {
+    text-decoration: underline;
+}
+
+.border-bottom {
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+}
+
+.final-logo {
+    margin-top: 600px;
+    margin-right: 550px;
+    margin-bottom: 80px;
+}
+
+.password-container .password-eye {
+    position: absolute;
+    right: 10px;
+    margin-top: -1.75rem;
+    color: grey;
+    z-index: 9998 ;
+    cursor: pointer;
+}
+
+.label a {
+    color: #3b8fc2;
+}
+
+.symbols .fa-circle {
+    color: #3B8FC2;
+}
+
+.symbols .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.symbols .far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+}
+
+.content .image {
+    margin-top: 20px;
+    display: flex;
+}

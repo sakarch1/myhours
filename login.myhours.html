@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hours | Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <img src="images/logo.svg" alt="myhours logo" class="logo">
+            <h2>Sign in</h2>
+            <form action="php/login.php" method="post">
+                <label for="email">E-MAIL</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">PASSWORD</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    <i id="showHide" class="fa fa-eye password-eye" style="margin-top: 13px;"></i>
+                </div>
+
+                <button type="submit">Sign in</button>
+
+                <div class="border-bottom"></div>
+
+                <div class="microsoft-login">
+                    <button type="button" class="microsoft-button">
+                        <img src="images/microsoft-logo.png" alt="Microsoft Logo">
+                        <a href="https://login.microsoftonline.com/">Sign in with Microsoft
+                        </a>
+                    </button>
+                </div>
+
+                <div class="extra-options">
+                    <a href="login.forgotPassword.html">Forgot password?</a>
+                    <a href="signup.myhours.html">Sign up for an account</a>
+                </div>
+
+            </form>
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
